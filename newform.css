@@ -1,0 +1,59 @@
+form {
+  max-width: 1400px;
+  margin: 0 auto;
+  border: 1px solid #ddd;
+  border-radius: 7px;
+  font: bold 10pt/2.2em "Arial";
+  letter-spacing: 0.5px;
+  color: #888
+}
+table {
+  width: 100%;
+  border-collapse: collapse
+}
+td {
+  padding: 0.9em 1.5em;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd
+}
+td:last-child {
+  border-right: none
+}
+table:last-child td {
+  border-bottom: none
+}
+form label {
+  display: block;
+  text-transform: uppercase;
+  font-size: 90%
+}
+form input, form select {
+  border: none;
+  width: 100%;
+  color: #999;
+  font-weight: bold
+}
+.twocells td {
+  width: 50%
+}
+.threecells td {
+  width: 33.33%
+}
+.fourcells td {
+  width: 25%
+}
+table:last-child td {
+  text-align: center
+}
+form input[type=submit] {
+  width: auto;
+  color: white;
+  background-color: #91AE5D;
+  padding: 0 10% 0.2em;
+  margin: 0.8em;
+  line-height: 2.2em;
+  border-radius: 3px;
+  box-shadow: 0 1.5px 0 0 #888;
+  text-shadow: 0 1px #666;
+  cursor: pointer
+}
